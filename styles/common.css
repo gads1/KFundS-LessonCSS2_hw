@@ -57,6 +57,13 @@ img {
   box-shadow: 13px 13px 15px rgba(30, 30, 30, 0.3);
 }
 
+@media screen and (max-width: 450px) {
+  img {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
 ul {
   list-style-type: square;
 }
